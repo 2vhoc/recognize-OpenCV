@@ -99,7 +99,7 @@ def Recognizer():
     faceCascade = cv2.CascadeClassifier('../haarcascade_frontalface_default.xml')
     font = cv2.FONT_HERSHEY_SIMPLEX
     id = 0
-    Names = ['Vu Hoc', 'Hoc 1', 'Hoc 2', 'Hoc 3', 'Hoc 4', 'Hoc 5', 'Hoc 6']
+    Names = ['1', '2', '3'] ## nơi gán nhãn
     cap = cv2.VideoCapture(0)
     cap.set(3, 640)
     cap.set(3, 480)
